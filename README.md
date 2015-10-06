@@ -1,0 +1,2 @@
+## Description
+GeoQuiz is an android quiz app that presents the user with several geography-based true/false questions. The app was built using Android Studio. For more information about the app visit [this](https://sites.google.com/site/suhascpsc415portfolio/projects/geoquiz) page.
