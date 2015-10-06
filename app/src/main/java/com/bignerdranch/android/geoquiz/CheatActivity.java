@@ -27,6 +27,7 @@ public class CheatActivity extends AppCompatActivity {
     private boolean mIsAnswerShown;
     private TextView mAnswerTextView;
     private Button mShowAnswer;
+
     private TextView mApiTextView;
 
 
@@ -58,6 +59,7 @@ public class CheatActivity extends AppCompatActivity {
 
         mAnswerTextView = (TextView) findViewById(R.id.answer_text_view);
         mShowAnswer = (Button) findViewById(R.id.show_answer_button);
+
         mShowAnswer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -85,6 +87,7 @@ public class CheatActivity extends AppCompatActivity {
             setAnswerShownResult(mIsAnswerShown);
         }
     }
+    
     @Override
     protected void onSaveInstanceState(Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);
